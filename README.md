@@ -1,7 +1,5 @@
 # Canada Immigration Guide Front End Service
 
-# Canada Immigration Guide Service
-
 This project is a React-based website that provides a comprehensive guide to Canada immigration services. It offers various functionalities, including support for visitor visas, work permits, permanent residence, and citizenship. The website also features a forum section where users can ask their immigration-related queries, as well as a "Tracker" section where users can add their application timelines, providing insights into the current trends in application processing by IRCC (Immigration, Refugees and Citizenship Canada).
 
 ## Getting Started
