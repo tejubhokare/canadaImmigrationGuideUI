@@ -3,6 +3,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ServicesGuide from "./ServicesGuide";
 import LoginUser from "./LoginUser";
 import MainPage from "./MySitePage1";
+import CreatePost from "./Forum";
+import Forum from "./Forum";
 
 function Router() {
     const router = createBrowserRouter([
@@ -22,6 +24,11 @@ function Router() {
         {
             path: "/img",
             element: <MainPage />
+        },
+
+        {
+            path: "/forum",
+            element: <Forum />
         }
     ])
     return (
