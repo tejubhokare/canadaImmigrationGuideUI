@@ -3,8 +3,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ServicesGuide from "./ServicesGuide";
 import LoginUser from "./LoginUser";
 import MainPage from "./MySitePage1";
-import CreatePost from "./Forum";
 import Forum from "./Forum";
+import NewDiscussion from "./NewDiscussion";
 
 function Router() {
     const router = createBrowserRouter([
@@ -29,7 +29,12 @@ function Router() {
         {
             path: "/forum",
             element: <Forum />
-        }
+        },
+
+        {
+            path: "/newDiscussion",
+            element: <NewDiscussion />
+        },
     ])
     return (
         <div>
@@ -37,5 +42,4 @@ function Router() {
         </div>
     )
 }
-
 export default Router;

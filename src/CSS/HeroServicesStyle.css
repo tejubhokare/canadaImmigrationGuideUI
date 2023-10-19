@@ -1,0 +1,79 @@
+.divStyle {
+    flex: 1 0 80px;
+    margin: 10px;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40%;
+    min-height: 350px;
+
+}
+
+.subDivStyle {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: flex-start
+}
+
+.button {
+    margin-left: 36%;
+    text-align: center;
+    width: 30%;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px
+}
+
+.imageStyle {
+    width: 95%;
+    height: 150px;
+    border: 0;
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px;
+
+}
+
+.logoStyle {
+    width: 25%;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 40%;
+    margin-top: -7%
+}
+
+.mainDiv {
+    width: 93%;
+    padding: 25px;
+    margin-left: 2%;
+    margin-top: 7%;
+    height: 10px;
+    justify-content: center;
+}
+
+.imgBack {
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    opacity: 90%
+}
+
+.h3 {
+
+    text-align: center;
+    margin-top: 1%
+}
+
+.p {
+
+    text-align: center;
+    color: black;
+}

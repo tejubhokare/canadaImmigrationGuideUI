@@ -1,0 +1,29 @@
+.myStyle {
+    z-index: 50;
+    font-size: 40px;
+
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 5%;
+    width: 40%;
+    color: black
+}
+
+.imgStyle {
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.5%;
+    opacity: 60%
+}
+
+.myStyleSub {
+    z-index: 50;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 23%;
+    padding-top: '';
+    width: 55%;
+    color: black
+}

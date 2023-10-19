@@ -1,7 +1,8 @@
+import '../CSS/FooterStyle.css'
 function Footer() {
     return (
-        <footer style={{ backgroundColor: 'black', padding: '5px', marginTop: '50%', }}>
-            <p style={{ color: 'white', textAlign: 'center' }}>© Copyright 2023 Tejaswi</p>
+        <footer className="footer">
+            <p className="p">© Canadian Immigration Guide 2023</p>
         </footer>
     );
 };

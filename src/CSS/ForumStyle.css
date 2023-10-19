@@ -1,0 +1,42 @@
+.inputStyle {
+    position: absolute;
+    margin-left: 5%;
+    padding: 10px;
+    width: 70%;
+    margin-top: 1%;
+    font-size: 18px
+}
+
+.buttonStyle {
+    position: absolute;
+    font-size: 17px;
+    margin-top: -5%;
+    padding: 10px;
+    width: 12%;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background-color: olive;
+    cursor: Pointer;
+    margin-left: 65%
+}
+
+.p {
+    border: 1px solid;
+    width: 99%;
+    margin-left: 0.5%;
+    margin-top: 3%
+}
+
+.h2 {
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 30px
+}
+
+.p1 {
+    border: 1px solid #e1e1e1;
+    width: 72%;
+    margin-left: 5%;
+    margin-top: 0%
+}

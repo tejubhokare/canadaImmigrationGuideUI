@@ -1,4 +1,4 @@
-import Hero from "./Hero";
+
 function Header() {
     const myStyle = {
         zIndex: 50,
@@ -11,16 +11,15 @@ function Header() {
     const navigationStyle = {
         display: 'inline-block',
         padding: '7px',
-        border: '1px solid black',
-        width: '10%',
+        //border: '1px solid black',
+        width: '9%',
         textAlign: 'center',
         margin: '0',
         cursor: 'pointer',
-        color: 'white',
-        backgroundColor: 'blueviolet',
-        textDecoration: 'none'
-
-        //borderRadius: '5px',
+        color: 'Black',
+        //backgroundColor: 'blueviolet',
+        textDecoration: 'none',
+        fontSize: '20px'
     };
 
     const item1Navigation = {
@@ -28,29 +27,38 @@ function Header() {
         margin: 0,
         marginLeft: '20%',
         display: 'inline-block',
-        border: '1px solid black',
-        width: '10%',
+        //border: '1px solid black',
+        width: '9%',
         textAlign: 'center',
         padding: '7px',
         cursor: 'pointer',
-        color: 'white',
-        backgroundColor: 'blueviolet',
-        //borderRadius: '5px',
+        color: 'black',
+        fontSize: '20px'
+        //backgroundColor: 'blueviolet',
+
     };
 
-    const buttonStyle = {
-        fontSize: '17px',
-        marginLeft: '3%',
-        padding: '10px',
-        width: '10%',
+    const sharedButtonStyle = {
+        position: "absolute",
+        fontSize: '14px',
+        marginTop: '-1%',
+        padding: '3px',
+        width: '6%',
         color: 'white',
-        display: 'inline-block',
-        //margin: '0',
         border: '0',
         borderRadius: '10px',
-        backgroundColor: 'blueViolet',
-        cursor: 'Pointer'
+        backgroundColor: 'olive',
+        cursor: 'Pointer',
+    }
 
+    const buttonStyle1 = {
+        ...sharedButtonStyle,
+        marginLeft: '86%'
+
+    };
+    const buttonStyle2 = {
+        ...sharedButtonStyle,
+        marginLeft: '93%'
     };
 
     const hyperlinkStyle = {
@@ -58,19 +66,17 @@ function Header() {
         color: 'white'
     }
 
+    const searchStyle = {
+        position: "absolute",
+        marginLeft: '86%',
+        padding: '5px',
+        width: '12%',
+        marginTop: '-4%'
+    }
     return (
         <header >
 
             <div>
-                {/* <img src='/img/front.jpg'
-                    alt="background"
-                    width='100%'
-                    height='100%'
-                    style={{
-                        position: "absolute", zIndex: -1, backgroundSize: 'cover',
-                        backgroundPosition: 'center', marginTop: '-1.5%', opacity: '35%'
-                    }}
-                /> */}
                 <img src='/img/canada.png'
                     alt="country"
                     width='16%'
@@ -81,19 +87,21 @@ function Header() {
                 />
                 <h1 style={myStyle}>Canadian Immigration Guide</h1>
 
-                <nav >
+                <nav style={{ position: 'relative' }}>
                     <ul style={{ listStyleType: 'none', textDecoration: 'none', padding: '', marginTop: '-6%' }}>
 
-                        <li style={item1Navigation}><b>Home</b></li>
+                        <a href="/" style={hyperlinkStyle}><li style={item1Navigation}><b>Home</b></li></a>
                         <a href="/services" style={hyperlinkStyle}><li style={navigationStyle}><b>Services</b></li></a>
                         <a href="/forum" style={hyperlinkStyle}><li style={navigationStyle}><b>Forum</b></li></a>
                         <li style={navigationStyle}><b>Tracker </b></li>
                         <li style={navigationStyle}><b>About</b></li>
-                        <a href="/login" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle} ><b>Login</b></button ></a>
-
-                    </ul>
+                        <li style={navigationStyle}><b>Contact Us</b></li></ul>
                 </nav>
-                <Hero />
+                <input style={searchStyle} type="search" placeholder="Search here" />
+                <a href="/login" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle1} ><b>Login</b></button ></a>
+                <a href="/login" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle2} ><b>Register</b></button ></a>
+
+
             </div>
         </header >
 
