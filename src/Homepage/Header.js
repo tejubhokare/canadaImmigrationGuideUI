@@ -99,7 +99,7 @@ function Header() {
                 </nav>
                 <input style={searchStyle} type="search" placeholder="Search here" />
                 <a href="/login" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle1} ><b>Login</b></button ></a>
-                <a href="/login" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle2} ><b>Register</b></button ></a>
+                <a href="/register" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle2} ><b>Register</b></button ></a>
 
 
             </div>

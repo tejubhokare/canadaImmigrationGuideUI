@@ -5,6 +5,7 @@ import LoginUser from "./LoginUser";
 import MainPage from "./MySitePage1";
 import Forum from "./Forum";
 import NewDiscussion from "./NewDiscussion";
+import Register from "./Register";
 
 function Router() {
     const router = createBrowserRouter([
@@ -20,6 +21,10 @@ function Router() {
         {
             path: "/login",
             element: <LoginUser />
+        },
+        {
+            path: "/register",
+            element: <Register />
         },
         {
             path: "/img",

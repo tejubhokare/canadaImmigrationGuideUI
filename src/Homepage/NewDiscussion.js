@@ -17,8 +17,6 @@ export default function NewDiscussion() {
         })
     }
 
-
-
     const buttonStyle = {
         position: "absolute",
         fontSize: '17px',

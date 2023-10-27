@@ -8,11 +8,11 @@ function LoginUser() {
     const [password, setPassword] = useState("")
 
     const submitLoginDetails = () => {
-        Axios.post("http://localhost:3001/api/insert", {
+        Axios.post("http://localhost:3001/api/auth", {
             email: emailID, password: password
-        }).then(() => {
-            alert("Success")
-        })
+        }).then((response) => alert(response.data.message))
+            .catch((response) => alert(response.data.message));
+
     }
     const myStyle = {
         zIndex: 50,

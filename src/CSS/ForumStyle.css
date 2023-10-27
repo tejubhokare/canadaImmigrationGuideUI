@@ -40,3 +40,11 @@
     margin-left: 5%;
     margin-top: 0%
 }
+
+.activityStyle {
+    width: 40%;
+    height: 20%;
+    border: 1px solid;
+    margin-left: 5%;
+    border-radius: 10px;
+}
