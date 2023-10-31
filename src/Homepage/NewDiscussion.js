@@ -58,7 +58,7 @@ export default function NewDiscussion() {
                 setTag(e.target.value);
             }} />
             <input type="file" style={{ marginLeft: '2%' }} /><br />
-            <button style={buttonStyle} onClick={submitForumDetails}>Create Discussion</button>
+            <a href="/forum" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle} onClick={submitForumDetails}>Create Discussion</button></a>
 
             <Footer />
         </div>

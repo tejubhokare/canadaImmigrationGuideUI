@@ -11,7 +11,7 @@ function LoginUser() {
         Axios.post("http://localhost:3001/api/auth", {
             email: emailID, password: password
         }).then((response) => alert(response.data.message))
-            .catch((response) => alert(response.data.message));
+            .catch(() => alert("Invalid Credentials"));
 
     }
     const myStyle = {
