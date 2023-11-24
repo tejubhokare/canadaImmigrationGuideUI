@@ -1,0 +1,56 @@
+.myStyle {
+    z-index: 50;
+    font-size: 15px;
+    margin-left: 3.1%;
+    padding-top: 7%;
+    width: 30%;
+    color: black
+}
+
+.myStyle1 {
+    z-index: 50;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 1%;
+    width: 30%;
+    color: black;
+
+}
+
+.inputStyle {
+    margin-left: 30%;
+    width: 25%;
+    padding: 12px;
+    font-size: 17px;
+    margin-top: 1%;
+    border: 0.5px solid;
+    border-radius: 10px
+}
+
+.buttonLogin {
+    margin-left: 32%;
+    font-size: 20px;
+    text-align: center;
+    width: 23%;
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1%;
+    cursor: pointer
+}
+
+.buttonLogin1 {
+    margin-left: 34%;
+    font-size: 20px;
+    text-align: center;
+    width: 18%;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 1%;
+    cursor: pointer
+}

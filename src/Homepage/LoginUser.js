@@ -139,7 +139,7 @@ function LoginUser() {
             <p style={{ border: '1px solid', width: '140px', marginLeft: '30%' }}></p>
             <p style={{ marginLeft: '42.7%', marginTop: '-2.3%' }}>or</p>
             <p style={{ border: '1px solid', width: '140px', marginLeft: '45%', marginTop: '-2%' }}></p>
-            <button type="submit" style={buttonLogin1}>Create New Account</button>
+            <a href="/register" style={{ textDecoration: 'none', color: 'blue' }}><button type="submit" style={buttonLogin1}>Create New Account</button></a>
         </div>
     )
 }
